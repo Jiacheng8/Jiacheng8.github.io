@@ -59,7 +59,7 @@ Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MS
 </div>
 </div>
 
-
+- `Neurips 2025` [Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents](https://arxiv.org/abs/2505.24878), Yaxin Luo, Zhaoyi Li, Jiacheng Liu, **Jiacheng Cui**, Xiaohan Zhao, Zhiqiang Shen. [![](https://img.shields.io/github/stars/MetaAgentX/OpenCaptchaWorld?style=social&label=Code+Stars)](https://github.com/MetaAgentX/OpenCaptchaWorld)
 
 # 🎖 Honors and Awards
 - **2024–2026**, MBZUAI Graduate Fellowship (Full Scholarship)
