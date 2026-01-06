@@ -32,9 +32,10 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 
 [FADRM: Fast and Accurate Data Residual Matching for Dataset Distillation](https://arxiv.org/pdf/2506.24125)
 
-**Jiacheng Cui***, Xinyue Bi*, Yaxin Luo, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
+**Jiacheng Cui**<sup>*</sup>, Xinyue Bi<sup>*</sup>, Yaxin Luo, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
 
-[**Project**](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=SI_9kD0AAAAJ&citation_for_view=SI_9kD0AAAAJ:W7OEmFMy1HYC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong>
+
+[**Project**](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=SI_9kD0AAAAJ&citation_for_view=SI_9kD0AAAAJ:W7OEmFMy1HYC) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:W7OEmFMy1HYC'></span></strong>
 - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 </div>
 </div>
