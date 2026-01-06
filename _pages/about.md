@@ -61,6 +61,9 @@ Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MS
 
 - <span class="conf-tag">NeurIPS 2025</span> [Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents](https://arxiv.org/abs/2505.24878), Yaxin Luo, Zhaoyi Li, Jiacheng Liu, **Jiacheng Cui**, Xiaohan Zhao, Zhiqiang Shen. [![](https://img.shields.io/github/stars/MetaAgentX/OpenCaptchaWorld?style=social&label=Code+Stars)](https://github.com/MetaAgentX/OpenCaptchaWorld)
 
+- <span class="conf-tag">NeurIPS 2025</span> [A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635), Zhaoyi Li, Xiaohan Zhao, Dong-Dong Wu, **Jiacheng Cui**, Zhiqiang Shen. [![](https://img.shields.io/github/stars/VILA-Lab/M-Attack?style=social&label=Code+Stars)](https://github.com/VILA-Lab/M-Attack)
+
+
 # 🎖 Honors and Awards
 - **2024–2026**, MBZUAI Graduate Fellowship (Full Scholarship)
 - **2024. 06**, Awarded First-Class Honours upon Graduation, University of Edinburgh
