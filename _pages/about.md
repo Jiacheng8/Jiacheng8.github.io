@@ -17,8 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MSc) in the Machine Learning Department at MBZUAI, working on **data-centric AI** and **efficient learning** under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024.
+Hi! My name is Jiacheng Cui (崔家诚). I am currently a Master’s student (MSc) in the Machine Learning Department at MBZUAI, working on **data-centric AI** and **efficient learning** under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/).  
 
+My research interests include data-centric AI, dataset distillation, and efficient training.  
+
+Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
 
 # 🔥 News
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
@@ -71,3 +74,10 @@ Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MS
 # 📖 Educations
 - **2024.09 – 2026.06 (expected)**, Master of Science in Machine Learning, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE  
 - **2019.09 – 2024.06**, Bachelor of Science, The University of Edinburgh, Edinburgh, UK
+
+
+# 💬 Invited Talks
+
+
+# 💻 Internships
+- *2022.05 - 2022.07*, [Intersim](http://www.intesim.cn/), Dalian, China.
