@@ -17,13 +17,25 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MSc) in the Machine Learning Department at MBZUAI, working on **data-centric AI** and **efficient learning** under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). If you are interested in academic collaboration, please feel free to contact me at [jiachengcui5@gmail.com](mailto:jiachengcui5@gmail.com). Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024.
+Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MSc) in the Machine Learning Department at MBZUAI, working on **data-centric AI** and **efficient learning** under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024.
 
 
 # 🔥 News
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
 
-# 📝 Publications 
+# 📝 Publications
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hard Labels In! Rethinking the Role of Hard Labels in Mitigating Local Semantic Drift](https://arxiv.org/abs/2512.15647)
+
+**Jiacheng Cui**, Bingkui Tong, Xinyue Bi, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
+
+[**Project**](https://github.com/Jiacheng8/HALD) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:hqOjcs7Dif8C'></span></strong>
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurips 2025</div><img src='images/FADRM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -32,12 +44,9 @@ Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MS
 
 **Jiacheng Cui**<sup>*</sup>, Xinyue Bi<sup>*</sup>, Yaxin Luo, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
 
-
-[**Project**](https://scholar.google.co.uk/citations?view_op=view_citation&hl=en&user=SI_9kD0AAAAJ&citation_for_view=SI_9kD0AAAAJ:W7OEmFMy1HYC) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:W7OEmFMy1HYC'></span></strong>
-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
+[**Project**](https://github.com/Jiacheng8/FADRM) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:W7OEmFMy1HYC'></span></strong>
 </div>
 </div>
-
 
 # 🎖 Honors and Awards
 - **2024–2026**, MBZUAI Graduate Fellowship (Full Scholarship)
