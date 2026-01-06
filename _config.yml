@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Jiacheng Cui (崔家诚)"
+title                    : "Jiacheng Cui"
 description              : "Focusing on data-centric AI and efficient learning."
 repository               : "Jiacheng8/Jiacheng8.github.io"
 google_scholar_stats_use_cdn : true
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Jiacheng Cui (崔家诚)"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "MBZUAI"
+  bio              : "MSc in MBZUAI"
   location         : "Abu Dhabi, UAE"
   employer         :
   pubmed           : 

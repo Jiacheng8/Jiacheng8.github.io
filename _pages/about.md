@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-I am currently a Master’s student (MSc) in the Machine Learning Department at MBZUAI, working on **data-centric AI** and **efficient learning** under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). If you are interested in academic collaboration, please feel free to contact me at [jiachengcui5@gmail.com](mailto:jiachengcui5@gmail.com).
-
-Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024.
+Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MSc) in the Machine Learning Department at MBZUAI, working on **data-centric AI** and **efficient learning** under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). If you are interested in academic collaboration, please feel free to contact me at [jiachengcui5@gmail.com](mailto:jiachengcui5@gmail.com). Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024.
 
 
 # 🔥 News
