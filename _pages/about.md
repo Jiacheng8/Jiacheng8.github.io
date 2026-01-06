@@ -48,6 +48,8 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 **Jiacheng Cui**<sup>*</sup>, Xinyue Bi<sup>*</sup>, Yaxin Luo, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
 
 [**Project**](https://github.com/Jiacheng8/FADRM) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:W7OEmFMy1HYC'></span></strong>
+- Dataset Distillation
+- Data Residual Matching
 </div>
 </div>
 
@@ -59,6 +61,8 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 **Jiacheng Cui**, Zhaoyi Li, Xiaochen Ma, Xinyue Bi, Yaxin Luo, Zhiqiang Shen
 
 [**Project**](https://github.com/Jiacheng8/CV-DD) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:u-x6o8ySG0sC'></span></strong>
+- Dataset Distillation
+- Committee Voting
 </div>
 </div>
 
