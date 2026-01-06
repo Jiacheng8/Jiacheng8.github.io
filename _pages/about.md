@@ -29,7 +29,7 @@ Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MS
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Hard Labels In! Rethinking the Role of Hard Labels in Mitigating Local Semantic Drift](https://arxiv.org/abs/2512.15647)
+[Hard Labels In! Rethinking the Role of Hard Labels in Mitigating Local Semantic Drift](https://arxiv.org/pdf/2512.15647)
 
 **Jiacheng Cui**, Bingkui Tong, Xinyue Bi, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
 
@@ -47,6 +47,19 @@ Hi! My name is Jiacheng Cui (崔家诚), I am currently a Master’s student (MS
 [**Project**](https://github.com/Jiacheng8/FADRM) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:W7OEmFMy1HYC'></span></strong>
 </div>
 </div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/CV-DD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Dataset Distillation via Committee Voting](https://arxiv.org/pdf/2501.07575?)
+
+**Jiacheng Cui**, Zhaoyi Li, Xiaochen Ma, Xinyue Bi, Yaxin Luo, Zhiqiang Shen
+
+[**Project**](https://github.com/Jiacheng8/CV-DD) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:W7OEmFMy1HYC'></span></strong>
+</div>
+</div>
+
+
 
 # 🎖 Honors and Awards
 - **2024–2026**, MBZUAI Graduate Fellowship (Full Scholarship)
