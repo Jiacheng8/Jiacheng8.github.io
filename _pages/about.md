@@ -23,6 +23,8 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 
 # 🔥 News
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
+- *2024.08*: &nbsp;🎉🎉 I am excited to share that I have started my Master’s journey at MBZUAI!
+
 
 # 📝 Publications
 
