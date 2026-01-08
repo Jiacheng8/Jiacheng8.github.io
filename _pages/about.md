@@ -80,7 +80,7 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 - **2019.09 – 2024.06**, Bachelor of Science, The University of Edinburgh, Edinburgh, UK
 
 
-# 💬 Invited Talks
+# 💬 Services
 
 
 # 💻 Internships
