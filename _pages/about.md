@@ -68,7 +68,7 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 </div>
 </div>
 
-- <span class="conf-tag">CVPR 2026</span> [BiGain: Unified Token Compression for Joint Generation and Classification](), Jiacheng Liu, Shengkun Tang, **Jiacheng Cui**, Zhiqiang Shen.
+- <span class="conf-tag">CVPR 2026</span> [BiGain: Unified Token Compression for Joint Generation and Classification](https://arxiv.org/pdf/2603.12240), Jiacheng Liu, Shengkun Tang, **Jiacheng Cui**, Zhiqiang Shen. [![](https://img.shields.io/github/stars/MetaAgentX/OpenCaptchaWorld?style=social&label=Code+Stars)](https://github.com/Greenoso/BiGain)
 
 
 - <span class="conf-tag">NeurIPS 2025</span> [Open CaptchaWorld: A Comprehensive Web-based Platform for Testing and Benchmarking Multimodal LLM Agents](https://arxiv.org/abs/2505.24878), Yaxin Luo, Zhaoyi Li, Jiacheng Liu, **Jiacheng Cui**, Xiaohan Zhao, Zhiqiang Shen. [![](https://img.shields.io/github/stars/MetaAgentX/OpenCaptchaWorld?style=social&label=Code+Stars)](https://github.com/MetaAgentX/OpenCaptchaWorld)
