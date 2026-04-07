@@ -17,18 +17,20 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jiacheng Cui (崔家诚). I am currently a Master’s student (MSc) in the Machine Learning Department at MBZUAI, working on **data-centric AI** and **efficient learning** under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). My research interests include data-centric AI, dataset distillation, and efficient training.  
+Hi! My name is Jiacheng Cui (崔家诚). I am currently an MSc student in the Machine Learning Department at MBZUAI and will join MBZUAI as a PhD student in Fall 2026. During my master’s studies, I worked on data-centric AI and efficient learning under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). My research interests include data-centric AI, dataset distillation, and efficient training.  
 
 Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 One first co-author paper *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
 - *2024.08*: &nbsp;🎉🎉 I am excited to share that I have started my Master’s journey at MBZUAI!
+- *2024.06*: &nbsp;🎉🎉 I’m excited to share that I have officially graduated from the University of Edinburgh with First Class Honours.
 
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/LLM-surgeon.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/LLM-surgeon.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLMSurgeon: Diagnosing Data Mixture of Large Language Models]()
@@ -36,19 +38,8 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, Jiacheng Liu, Xinyue Bi, Zhaoyi Li, Zhiqiang Shen
 
 [**Project**]() <strong><span class='show_paper_citations' data=''></span></strong>
-</div>
-</div>
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL2026</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[Hard Labels In! Rethinking the Role of Hard Labels in Mitigating Local Semantic Drift](https://arxiv.org/pdf/2512.15647)
-
-**Jiacheng Cui**, Bingkui Tong, Xinyue Bi, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
-
-[**Project**](https://github.com/Jiacheng8/HALD) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:hqOjcs7Dif8C'></span></strong>
-- Dataset Distillation
-- Label Usage
+- Data Mixture Surgery
+- Label Shift Inversion
 </div>
 </div>
 
