@@ -24,8 +24,8 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 # 🔥 News
 - *2026.04*: &nbsp;🎉🎉 One first co-author paper *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
-- *2024.08*: &nbsp;🎉🎉 I am excited to share that I have started my Master’s journey at MBZUAI!
-- *2024.06*: &nbsp;🎉🎉 I’m excited to share that I have officially graduated from the University of Edinburgh with First Class Honours.
+<!-- - *2024.08*: &nbsp;🎉🎉 I am excited to share that I have started my Master’s journey at MBZUAI!
+- *2024.06*: &nbsp;🎉🎉 I’m excited to share that I have officially graduated from the University of Edinburgh with First Class Honours. -->
 
 
 # 📝 Publications
