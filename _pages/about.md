@@ -28,6 +28,29 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/LLM-surgeon.pdf' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[LLMSurgeon: Diagnosing Data Mixture of Large Language Models]()
+
+Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, Jiacheng Liu, Xinyue Bi, Zhaoyi Li, Zhiqiang Shen
+
+[**Project**]() <strong><span class='show_paper_citations' data=''></span></strong>
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL2026</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[Hard Labels In! Rethinking the Role of Hard Labels in Mitigating Local Semantic Drift](https://arxiv.org/pdf/2512.15647)
+
+**Jiacheng Cui**, Bingkui Tong, Xinyue Bi, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
+
+[**Project**](https://github.com/Jiacheng8/HALD) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:hqOjcs7Dif8C'></span></strong>
+- Dataset Distillation
+- Label Usage
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
