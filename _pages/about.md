@@ -22,10 +22,8 @@ Hi! My name is Jiacheng Cui (崔家诚). I am currently an MSc student in the Ma
 Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
 
 # 🔥 News
-- *2026.04*: &nbsp;🎉🎉 One first co-author paper *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
+- *2026.04*: &nbsp;🎉🎉 *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
-<!-- - *2024.08*: &nbsp;🎉🎉 I am excited to share that I have started my Master’s journey at MBZUAI!
-- *2024.06*: &nbsp;🎉🎉 I’m excited to share that I have officially graduated from the University of Edinburgh with First Class Honours. -->
 
 
 # 📝 Publications
