@@ -28,7 +28,7 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/LLM-surgeon.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/LLM-surgeon.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [LLMSurgeon: Diagnosing Data Mixture of Large Language Models]()
@@ -41,7 +41,7 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Hard Labels In! Rethinking the Role of Hard Labels in Mitigating Local Semantic Drift](https://arxiv.org/pdf/2512.15647)
