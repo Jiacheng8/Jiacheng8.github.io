@@ -22,6 +22,7 @@ Hi! My name is Jiacheng Cui (崔家诚). I am currently an MSc student in the Ma
 Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
 
 # 🔥 News
+- *2026.04*: &nbsp;🎉🎉 *HALD* has been accepted to **ICML 2026**. See you in Seoul!
 - *2026.04*: &nbsp;🎉🎉 *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
 
@@ -41,7 +42,7 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/HALD.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [Hard Labels In! Rethinking the Role of Hard Labels in Mitigating Local Semantic Drift](https://arxiv.org/pdf/2512.15647)
@@ -79,6 +80,8 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 - Committee Voting
 </div>
 </div>
+
+- <span class="conf-tag">ICML 2026</span> [Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense](https://arxiv.org/pdf/2602.09012), Jiacheng Liu*, Yaxin Luo*, **Jiacheng Cui**, Xinyi Shang, Xiaohan Zhao, Zhiqiang Shen. [![](https://img.shields.io/github/stars/Greenoso/BiGain?style=social&label=Code+Stars)](https://github.com/MetaAgentX/NextGen-CAPTCHAs)
 
 - <span class="conf-tag">CVPR 2026</span> [BiGain: Unified Token Compression for Joint Generation and Classification](https://arxiv.org/pdf/2603.12240), Jiacheng Liu, Shengkun Tang, **Jiacheng Cui**, Zhiqiang Shen. [![](https://img.shields.io/github/stars/Greenoso/BiGain?style=social&label=Code+Stars)](https://github.com/Greenoso/BiGain)
 
