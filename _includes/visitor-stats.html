@@ -1,8 +1,10 @@
 {% if site.visitor_stats.enabled %}
   <div class="visitor-stats" aria-label="Visitor statistics">
-    {% if site.visitor_stats.title %}<h3>{{ site.visitor_stats.title }}</h3>{% endif %}
-    <a href="{{ site.visitor_stats.stats_url }}" target="_blank" rel="noopener noreferrer">
-      <img src="{{ site.visitor_stats.image_url }}" alt="Visitor count and country distribution" loading="lazy">
+    <img class="visitor-stats__tracker" src="{{ site.visitor_stats.image_url }}" alt="" aria-hidden="true">
+    <a class="visitor-stats__card" href="{{ site.visitor_stats.stats_url }}" target="_blank" rel="noopener noreferrer">
+      <span class="visitor-stats__label">{{ site.visitor_stats.title }}</span>
+      <span class="visitor-stats__title">Global traffic</span>
+      <span class="visitor-stats__meta">Pageviews and countries</span>
     </a>
   </div>
 {% endif %}
