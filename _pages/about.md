@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jiacheng Cui (崔家诚). I am currently an MSc student in the Machine Learning Department at MBZUAI and will join MBZUAI as a PhD student in Fall 2026. During my master’s studies, I worked on data-centric AI and efficient learning under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). My research interests include data-centric AI, dataset distillation, and efficient training.  
+Hi! My name is Jiacheng Cui (崔家诚). I am currently a PhD student in the Machine Learning Department at MBZUAI. During my master’s studies, I worked on data-centric AI and efficient learning under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). My research interests include data-centric AI, dataset distillation, and efficient training.  
 
 Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
 
