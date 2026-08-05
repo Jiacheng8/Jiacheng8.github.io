@@ -30,6 +30,10 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
 
 # 📝 Publications
 
+<div class="publication-scroll__hint" aria-hidden="true">
+  <span>Scroll for more publications</span>
+  <i class="fas fa-arrow-down"></i>
+</div>
 <div class='publication-scroll' markdown="1">
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/PIXAR.png' alt="PIXAR overview" width="100%"></div></div>
