@@ -22,12 +22,28 @@ Hi! My name is Jiacheng Cui (崔家诚). I am currently an MSc student in the Ma
 Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
 
 # 🔥 News
+- *2026.08*: &nbsp;🎉🎉 *PIXAR* has been accepted to **ECCV 2026**. See you in malmo!
 - *2026.04*: &nbsp;🎉🎉 *HALD* has been accepted to **ICML 2026**. See you in Seoul!
 - *2026.04*: &nbsp;🎉🎉 *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
 
 
 # 📝 Publications
+
+<div class='publication-scroll' markdown="1">
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/PIXAR.png' alt="PIXAR overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[From Masks to Pixels and Meaning: A New Taxonomy, Benchmark, and Metrics for VLM Image Tampering](https://arxiv.org/abs/2603.20193)
+
+Xinyi Shang<sup>*</sup>, Yi Tang<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Ahmed Elhagry, Salwa K. Al Khatib, Sondos Mahmoud Bsharat, Jiacheng Liu, Xiaohan Zhao, Jing-Hao Xue, Hao Li, Salman Khan, Zhiqiang Shen
+
+[**Project**](https://github.com/VILA-Lab/PIXAR) <strong><span class='show_paper_citations' data=''></span></strong>
+- VLM Image Tampering Benchmarking
+- Pixel-level Detection
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ACL 2026</div><img src='images/LLM-surgeon.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -90,6 +106,8 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 
 - <span class="conf-tag">NeurIPS 2025</span> [A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635), Zhaoyi Li, Xiaohan Zhao, Dong-Dong Wu, **Jiacheng Cui**, Zhiqiang Shen. [![](https://img.shields.io/github/stars/VILA-Lab/M-Attack?style=social&label=Code+Stars)](https://github.com/VILA-Lab/M-Attack)
 
+
+</div>
 
 # 🎖 Honors and Awards
 - **2024–2026**, MBZUAI Graduate Fellowship (Full Scholarship)

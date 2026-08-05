@@ -40,6 +40,29 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+.publication-scroll {
+    max-height: 72vh;
+    min-height: 420px;
+    overflow-y: auto;
+    padding-right: 1em;
+    margin-bottom: 2em;
+    scrollbar-width: thin;
+    scrollbar-color: #00369f #efefef;
+
+    &::-webkit-scrollbar {
+        width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+        background: #efefef;
+    }
+
+    &::-webkit-scrollbar-thumb {
+        background-color: #00369f;
+        border-radius: 4px;
+    }
+}
+
 .paper-box {
     display: flex;
     justify-content: left;
