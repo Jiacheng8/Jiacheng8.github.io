@@ -15,15 +15,20 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<section class="home-hero" id="about-me">
-  <p class="home-hero__kicker">Research at the intersection of data and learning</p>
-  <h1 class="home-hero__title">Building efficient intelligence from <span>better data.</span></h1>
-  <p class="home-hero__lead">I’m Jiacheng Cui (崔家诚), a PhD student at MBZUAI working on data-centric AI, dataset distillation, and efficient training. My research asks how thoughtful data design can make capable models faster, leaner, and more useful.</p>
-</section>
+<span class='anchor' id='about-me'></span>
 
-<div class="home-grid" markdown="1">
-<section class="home-publications" markdown="1">
-# Selected Publications {#publications}
+Hi! My name is Jiacheng Cui (崔家诚). I am currently a PhD student in the Machine Learning Department at MBZUAI. During my master’s studies, I worked on data-centric AI and efficient learning under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). My research interests include data-centric AI, dataset distillation, and efficient training.  
+
+Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
+
+# 🔥 News
+- *2026.08*: &nbsp;🎉🎉 *PIXAR* has been accepted to **ECCV 2026**. See you in Malmö!
+- *2026.04*: &nbsp;🎉🎉 *HALD* has been accepted to **ICML 2026**. See you in Seoul!
+- *2026.04*: &nbsp;🎉🎉 *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
+- *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
+
+
+# 📝 Publications
 
 <div class='publication-scroll' markdown="1">
 
@@ -104,34 +109,22 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 
 </div>
 
-</section>
-<aside class="home-news" markdown="1">
-
-# News {#news}
-- *2026.08*: *PIXAR* has been accepted to **ECCV 2026**. See you in Malmö.
-- *2026.04*: *HALD* has been accepted to **ICML 2026**. See you in Seoul.
-- *2026.04*: *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego.
-- *2025.09*: *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego.
-
-</aside>
-</div>
-
-# Honors and Awards {#honors}
+# 🎖 Honors and Awards
 - **2024–2026**, MBZUAI Graduate Fellowship (Full Scholarship)
 - **2024. 06**, Awarded First-Class Honours upon Graduation, University of Edinburgh
 
-# Education {#education}
+# 📖 Educations
 - **2026.08 – 2030.06 (expected)**, Doctor of Philosophy (Ph.D.) in Machine Learning, MBZUAI, Abu Dhabi, UAE
 - **2024.09 – 2026.06**, Master of Science (M.Sc.) in Machine Learning, MBZUAI, Abu Dhabi, UAE
 - **2019.09 – 2024.06**, Bachelor of Science (B.Sc.) in Artificial Intelligence and Computer Science, The University of Edinburgh, UK
 
 
-# Academic Service {#service}
+# 📄 Services
 
 ## Reviewer
 - <span style="color:#1f77b4;">2026</span>: ICLR, TMLR, NeurIPS
 
 
 
-# Experience {#experience}
+# 💻 Internships
 - *2022.05 - 2022.07*, [Intersim (英特仿真)](http://www.intesim.cn/), Dalian, China.
