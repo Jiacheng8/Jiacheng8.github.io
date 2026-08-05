@@ -16,27 +16,13 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <section class="home-hero" id="about-me">
-  <div class="home-hero__kicker">Machine Learning · MBZUAI</div>
+  <p class="home-hero__kicker">Research at the intersection of data and learning</p>
   <h1 class="home-hero__title">Building efficient intelligence from <span>better data.</span></h1>
-  <p class="home-hero__lead">I’m Jiacheng Cui (崔家诚), a PhD student exploring data-centric AI, dataset distillation, and efficient training. Previously, I graduated with First Class Honours in AI and Computer Science from the University of Edinburgh.</p>
-  <div class="home-hero__actions">
-    <a class="home-hero__button home-hero__button--primary" href="#publications">Explore my research</a>
-    <a class="home-hero__button" href="mailto:jiachengcui5@gmail.com">Let’s collaborate</a>
-  </div>
-  <div class="home-hero__topics" aria-label="Research interests">
-    <span>Data-centric AI</span>
-    <span>Dataset distillation</span>
-    <span>Efficient training</span>
-  </div>
+  <p class="home-hero__lead">I’m Jiacheng Cui (崔家诚), a PhD student at MBZUAI working on data-centric AI, dataset distillation, and efficient training. My research asks how thoughtful data design can make capable models faster, leaner, and more useful.</p>
 </section>
 
-# News {#news}
-- *2026.08*: &nbsp;🎉🎉 *PIXAR* has been accepted to **ECCV 2026**. See you in Malmö!
-- *2026.04*: &nbsp;🎉🎉 *HALD* has been accepted to **ICML 2026**. See you in Seoul!
-- *2026.04*: &nbsp;🎉🎉 *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
-- *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
-
-
+<div class="home-grid" markdown="1">
+<section class="home-publications" markdown="1">
 # Selected Publications {#publications}
 
 <div class='publication-scroll' markdown="1">
@@ -116,6 +102,18 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 - <span class="conf-tag">NeurIPS 2025</span> [A Frustratingly Simple Yet Highly Effective Attack Baseline: Over 90% Success Rate Against the Strong Black-box Models of GPT-4.5/4o/o1](https://arxiv.org/abs/2503.10635), Zhaoyi Li, Xiaohan Zhao, Dong-Dong Wu, **Jiacheng Cui**, Zhiqiang Shen. [![](https://img.shields.io/github/stars/VILA-Lab/M-Attack?style=social&label=Code+Stars)](https://github.com/VILA-Lab/M-Attack)
 
 
+</div>
+
+</section>
+<aside class="home-news" markdown="1">
+
+# News {#news}
+- *2026.08*: *PIXAR* has been accepted to **ECCV 2026**. See you in Malmö.
+- *2026.04*: *HALD* has been accepted to **ICML 2026**. See you in Seoul.
+- *2026.04*: *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego.
+- *2025.09*: *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego.
+
+</aside>
 </div>
 
 # Honors and Awards {#honors}
