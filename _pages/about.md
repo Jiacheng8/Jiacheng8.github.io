@@ -15,20 +15,29 @@ redirect_from:
 {% endif %}
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
-<span class='anchor' id='about-me'></span>
+<section class="home-hero" id="about-me">
+  <div class="home-hero__kicker">Machine Learning · MBZUAI</div>
+  <h1 class="home-hero__title">Building efficient intelligence from <span>better data.</span></h1>
+  <p class="home-hero__lead">I’m Jiacheng Cui (崔家诚), a PhD student exploring data-centric AI, dataset distillation, and efficient training. Previously, I graduated with First Class Honours in AI and Computer Science from the University of Edinburgh.</p>
+  <div class="home-hero__actions">
+    <a class="home-hero__button home-hero__button--primary" href="#publications">Explore my research</a>
+    <a class="home-hero__button" href="mailto:jiachengcui5@gmail.com">Let’s collaborate</a>
+  </div>
+  <div class="home-hero__topics" aria-label="Research interests">
+    <span>Data-centric AI</span>
+    <span>Dataset distillation</span>
+    <span>Efficient training</span>
+  </div>
+</section>
 
-Hi! My name is Jiacheng Cui (崔家诚). I am currently a PhD student in the Machine Learning Department at MBZUAI. During my master’s studies, I worked on data-centric AI and efficient learning under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). My research interests include data-centric AI, dataset distillation, and efficient training.  
-
-Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
-
-# 🔥 News
+# News {#news}
 - *2026.08*: &nbsp;🎉🎉 *PIXAR* has been accepted to **ECCV 2026**. See you in Malmö!
 - *2026.04*: &nbsp;🎉🎉 *HALD* has been accepted to **ICML 2026**. See you in Seoul!
 - *2026.04*: &nbsp;🎉🎉 *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
 - *2025.09*: &nbsp;🎉🎉 *FADRM* has been accepted to **NeurIPS 2025**. See you in San Diego!
 
 
-# 📝 Publications
+# Selected Publications {#publications}
 
 <div class='publication-scroll' markdown="1">
 
@@ -109,22 +118,22 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 
 </div>
 
-# 🎖 Honors and Awards
+# Honors and Awards {#honors}
 - **2024–2026**, MBZUAI Graduate Fellowship (Full Scholarship)
 - **2024. 06**, Awarded First-Class Honours upon Graduation, University of Edinburgh
 
-# 📖 Educations
+# Education {#education}
 - **2026.08 – 2030.06 (expected)**, Doctor of Philosophy (Ph.D.) in Machine Learning, MBZUAI, Abu Dhabi, UAE
 - **2024.09 – 2026.06**, Master of Science (M.Sc.) in Machine Learning, MBZUAI, Abu Dhabi, UAE
 - **2019.09 – 2024.06**, Bachelor of Science (B.Sc.) in Artificial Intelligence and Computer Science, The University of Edinburgh, UK
 
 
-# 📄 Services
+# Academic Service {#service}
 
 ## Reviewer
 - <span style="color:#1f77b4;">2026</span>: ICLR, TMLR, NeurIPS
 
 
 
-# 💻 Internships
+# Experience {#experience}
 - *2022.05 - 2022.07*, [Intersim (英特仿真)](http://www.intesim.cn/), Dalian, China.
