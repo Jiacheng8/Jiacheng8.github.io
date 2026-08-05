@@ -19,7 +19,7 @@ redirect_from:
 
 Hi! My name is Jiacheng Cui (崔家诚). I am currently a PhD student in the Machine Learning Department at MBZUAI. During my master’s studies, I worked on data-centric AI and efficient learning under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). My research interests include data-centric AI, dataset distillation, and efficient training.  
 
-Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests.
+Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests. According to [Google Scholar]({{ site.author.googlescholar }}), my publications have received **<span id="total_cit" aria-live="polite">—</span> citations**.
 
 # 🔥 News
 - *2026.08*: &nbsp;🎉🎉 *PIXAR* has been accepted to **ECCV 2026**. See you in Malmö!
