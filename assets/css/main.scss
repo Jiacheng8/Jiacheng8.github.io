@@ -149,3 +149,28 @@ h1:before, .anchor:before {
   color: #fff;
   background-color: #02228e;
 }
+
+.visitor-stats {
+  margin-top: 1.5em;
+  padding-top: 1em;
+  border-top: 1px solid #f2f3f3;
+  text-align: center;
+
+  h3 {
+    margin: 0 0 0.75em;
+    color: #494e52;
+    font-size: 0.8em;
+    text-transform: uppercase;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    border: 0;
+  }
+}

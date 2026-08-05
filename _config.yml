@@ -11,6 +11,12 @@ description              : "data-centric AI and efficient generative models"
 repository               : "Jiacheng8/Jiacheng8.github.io"
 google_scholar_stats_use_cdn : true
 
+visitor_stats:
+  enabled          : true
+  title            : "Visitors"
+  stats_url        : "https://info.flagcounter.com/Is52"
+  image_url        : "https://s01.flagcounter.com/count2/Is52/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_20/viewers_0/labels_0/pageviews_1/flags_1/percent_0/"
+
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/
 

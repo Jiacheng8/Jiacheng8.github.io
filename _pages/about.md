@@ -122,7 +122,7 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 # 📄 Services
 
 ## Reviewer
-- <span style="color:#1f77b4;">2026</span>: ICLR
+- <span style="color:#1f77b4;">2026</span>: ICLR, TMLR, NeurIPS
 
 
 
