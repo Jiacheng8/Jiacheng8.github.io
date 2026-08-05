@@ -157,9 +157,9 @@ h1:before, .anchor:before {
 }
 
 .visitor-stats {
-  margin-top: 1.5em;
-  padding-top: 1em;
-  border-top: 1px solid #f2f3f3;
+  margin-top: 1.15em;
+  padding-top: 0.85em;
+  border-top: 1px solid #eceff3;
 }
 
 .visitor-stats__tracker {
@@ -170,44 +170,70 @@ h1:before, .anchor:before {
   pointer-events: none;
 }
 
-.visitor-stats__card {
-  display: block;
-  padding: 0.85em 0.9em;
-  border: 1px solid #e6e8eb;
-  border-radius: 6px;
-  color: #494e52;
-  background: #fff;
+.visitor-stats__link {
+  display: flex;
+  align-items: center;
+  gap: 0.65em;
+  padding: 0.25em 0;
+  color: #3f464d;
   text-decoration: none;
+  transition: color 160ms ease;
 
   &:hover {
-    border-color: #b9c3d4;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    color: #224b8d;
     text-decoration: none;
+
+    .visitor-stats__icon {
+      color: #fff;
+      background: #224b8d;
+      transform: translateY(-1px);
+    }
+
+    .visitor-stats__arrow {
+      opacity: 1;
+      transform: translateX(2px);
+    }
   }
 }
 
-.visitor-stats__label {
-  display: block;
-  margin-bottom: 0.45em;
-  color: #1f77b4;
-  font-size: 0.7em;
-  font-weight: 700;
-  letter-spacing: 0;
-  text-transform: uppercase;
+.visitor-stats__icon {
+  display: inline-flex;
+  flex: 0 0 2.15em;
+  align-items: center;
+  justify-content: center;
+  width: 2.15em;
+  height: 2.15em;
+  border-radius: 50%;
+  color: #224b8d;
+  background: #eef3fa;
+  font-size: 0.9em;
+  transition: color 160ms ease, background-color 160ms ease, transform 160ms ease;
+}
+
+.visitor-stats__copy {
+  min-width: 0;
+  line-height: 1.25;
 }
 
 .visitor-stats__title {
   display: block;
-  color: #252a2e;
-  font-size: 0.95em;
-  font-weight: 700;
-  line-height: 1.25;
+  color: inherit;
+  font-size: 0.85em;
+  font-weight: 600;
 }
 
 .visitor-stats__meta {
   display: block;
-  margin-top: 0.25em;
-  color: #6a737d;
-  font-size: 0.78em;
-  line-height: 1.35;
+  margin-top: 0.12em;
+  color: #8a929a;
+  font-size: 0.7em;
+  white-space: nowrap;
+}
+
+.visitor-stats__arrow {
+  margin-left: auto;
+  color: #224b8d;
+  font-size: 0.58em;
+  opacity: 0.45;
+  transition: opacity 160ms ease, transform 160ms ease;
 }

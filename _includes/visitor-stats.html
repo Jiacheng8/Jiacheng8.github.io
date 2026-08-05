@@ -1,10 +1,15 @@
 {% if site.visitor_stats.enabled %}
   <div class="visitor-stats" aria-label="Visitor statistics">
     <img class="visitor-stats__tracker" src="{{ site.visitor_stats.image_url }}" alt="" aria-hidden="true">
-    <a class="visitor-stats__card" href="{{ site.visitor_stats.stats_url }}" target="_blank" rel="noopener noreferrer">
-      <span class="visitor-stats__label">{{ site.visitor_stats.title }}</span>
-      <span class="visitor-stats__title">Global traffic</span>
-      <span class="visitor-stats__meta">Pageviews and countries</span>
+    <a class="visitor-stats__link" href="{{ site.visitor_stats.stats_url }}" target="_blank" rel="noopener noreferrer">
+      <span class="visitor-stats__icon" aria-hidden="true">
+        <i class="fas fa-globe-asia"></i>
+      </span>
+      <span class="visitor-stats__copy">
+        <span class="visitor-stats__title">{{ site.visitor_stats.title }}</span>
+        <span class="visitor-stats__meta">View visitor map</span>
+      </span>
+      <i class="fas fa-chevron-right visitor-stats__arrow" aria-hidden="true"></i>
     </a>
   </div>
 {% endif %}
