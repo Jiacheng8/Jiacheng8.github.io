@@ -101,7 +101,7 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 </div>
 </div>
 
-- <span class="conf-tag">ICML 2026</span> [Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense](https://arxiv.org/pdf/2602.09012), Jiacheng Liu*, Yaxin Luo*, **Jiacheng Cui**, Xinyi Shang, Xiaohan Zhao, Zhiqiang Shen. [![](https://img.shields.io/github/stars/Greenoso/BiGain?style=social&label=Code+Stars)](https://github.com/MetaAgentX/NextGen-CAPTCHAs)
+- <span class="conf-tag">ICML 2026</span> [Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense](https://arxiv.org/pdf/2602.09012), Jiacheng Liu*, Yaxin Luo*, **Jiacheng Cui**, Xinyi Shang, Xiaohan Zhao, Zhiqiang Shen. [![](https://img.shields.io/github/stars/MetaAgentX/NextGen-CAPTCHAs?style=social&label=Code+Stars)](https://github.com/MetaAgentX/NextGen-CAPTCHAs)
 
 - <span class="conf-tag">CVPR 2026</span> [BiGain: Unified Token Compression for Joint Generation and Classification](https://arxiv.org/pdf/2603.12240), Jiacheng Liu, Shengkun Tang, **Jiacheng Cui**, Zhiqiang Shen. [![](https://img.shields.io/github/stars/Greenoso/BiGain?style=social&label=Code+Stars)](https://github.com/Greenoso/BiGain)
 
