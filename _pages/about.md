@@ -110,7 +110,7 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 </div>
 
 # 🎖 Honors and Awards
-- **2024–2026**, MBZUAI Graduate Fellowship (Full Scholarship)
+- **2024–2030**, MBZUAI Graduate Fellowship (Full Scholarship)
 - **2024. 06**, Awarded First-Class Honours upon Graduation, University of Edinburgh
 
 # 📖 Educations
