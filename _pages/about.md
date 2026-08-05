@@ -114,7 +114,8 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 - **2024. 06**, Awarded First-Class Honours upon Graduation, University of Edinburgh
 
 # 📖 Educations
-- **2024.09 – 2026.06 (expected)**, Master of Science (M.Sc.) in Machine Learning, Mohamed bin Zayed University of Artificial Intelligence (MBZUAI), Abu Dhabi, UAE
+- **2026.08 – 2030.06 (expected)**, Doctor of Philosophy (Ph.D.) in Machine Learning, MBZUAI, Abu Dhabi, UAE
+- **2024.09 – 2026.06**, Master of Science (M.Sc.) in Machine Learning, MBZUAI, Abu Dhabi, UAE
 - **2019.09 – 2024.06**, Bachelor of Science (B.Sc.) in Artificial Intelligence and Computer Science, The University of Edinburgh, UK
 
 
