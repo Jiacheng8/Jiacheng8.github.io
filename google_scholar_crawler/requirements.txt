@@ -1,1 +1,2 @@
-# The crawler uses only Python's standard library.
+jsonpickle==1.4.2
+scholarly==1.5.1
