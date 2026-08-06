@@ -9,6 +9,7 @@ on:
       - main
     paths:
       - .github/workflows/google_scholar_stats.yml
+      - google_scholar_crawler/**
 
 permissions:
   contents: write
