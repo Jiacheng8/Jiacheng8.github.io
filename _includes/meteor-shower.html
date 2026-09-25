@@ -1,0 +1,267 @@
+<div class="sky-aurora" aria-hidden="true">
+  <span class="sky-aurora__blob sky-aurora__blob--1"></span>
+  <span class="sky-aurora__blob sky-aurora__blob--2"></span>
+  <span class="sky-aurora__blob sky-aurora__blob--3"></span>
+</div>
+<canvas class="meteor-shower" aria-hidden="true"></canvas>
+<script>
+  (function () {
+    var canvas = document.querySelector('.meteor-shower');
+    if (!canvas || !canvas.getContext) return;
+    var ctx = canvas.getContext('2d');
+    var reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    var METEOR_COLORS = [
+      [34, 75, 141],
+      [79, 70, 229],
+      [124, 58, 237],
+      [14, 165, 233],
+      [219, 39, 119]
+    ];
+    var LINK_DISTANCE = 120;
+    var MOUSE_RADIUS = 170;
+
+    var width = 0, height = 0, dpr = 1;
+    var stars = [], meteors = [], sparks = [];
+    var mouse = { x: -9999, y: -9999, active: false };
+    var scrollY = window.scrollY || 0;
+    var lastSpawn = 0, rafId = null;
+
+    function rand(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+
+    function rgba(c, a) {
+      return 'rgba(' + c[0] + ', ' + c[1] + ', ' + c[2] + ', ' + Math.max(0, a).toFixed(3) + ')';
+    }
+
+    function resize() {
+      dpr = Math.min(window.devicePixelRatio || 1, 2);
+      width = window.innerWidth;
+      height = window.innerHeight;
+      canvas.width = width * dpr;
+      canvas.height = height * dpr;
+      ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+      var count = Math.min(140, Math.round(width * height / 11000));
+      stars = [];
+      for (var i = 0; i < count; i++) {
+        stars.push({
+          x: Math.random() * width,
+          y: Math.random() * height,
+          vx: rand(-0.12, 0.12),
+          vy: rand(-0.12, 0.12),
+          r: rand(0.6, 1.8),
+          depth: rand(0.2, 1),
+          phase: Math.random() * Math.PI * 2,
+          speed: rand(0.0008, 0.0025)
+        });
+      }
+    }
+
+    function spawnMeteor(x, y) {
+      var angle = Math.PI / 5 + rand(-0.12, 0.12);
+      var speed = rand(7, 13);
+      meteors.push({
+        x: x !== undefined ? x : rand(-0.1, 1.1) * width,
+        y: y !== undefined ? y : -40 - Math.random() * height * 0.3,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        length: rand(160, 320),
+        color: METEOR_COLORS[Math.floor(Math.random() * METEOR_COLORS.length)],
+        life: 0,
+        maxLife: rand(80, 140)
+      });
+    }
+
+    function spawnSpark(x, y, color, power) {
+      var angle = Math.random() * Math.PI * 2;
+      var speed = rand(0.3, 1.2) * power;
+      sparks.push({
+        x: x,
+        y: y,
+        vx: Math.cos(angle) * speed,
+        vy: Math.sin(angle) * speed,
+        r: rand(0.8, 2.2),
+        color: color,
+        life: 0,
+        maxLife: rand(30, 70)
+      });
+    }
+
+    function burst(x, y) {
+      for (var i = 0; i < 36; i++) {
+        spawnSpark(x, y, METEOR_COLORS[i % METEOR_COLORS.length], 4);
+      }
+      spawnMeteor(x - 120, y - 90);
+    }
+
+    function drawStars(t) {
+      var offset = scrollY * 0.15;
+      var visible = [];
+      for (var i = 0; i < stars.length; i++) {
+        var s = stars[i];
+        s.x += s.vx;
+        s.y += s.vy;
+        if (s.x < -20) s.x = width + 20;
+        if (s.x > width + 20) s.x = -20;
+        if (s.y < -20) s.y = height + 20;
+        if (s.y > height + 20) s.y = -20;
+
+        var y = ((s.y - offset * s.depth) % height + height) % height;
+        var x = s.x;
+
+        if (mouse.active) {
+          var dx = mouse.x - x, dy = mouse.y - y;
+          var dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < MOUSE_RADIUS) {
+            var pull = (1 - dist / MOUSE_RADIUS) * 18;
+            x += dx / dist * pull;
+            y += dy / dist * pull;
+          }
+        }
+
+        visible.push({ x: x, y: y, s: s });
+        var twinkle = 0.5 + 0.5 * Math.sin(s.phase + t * s.speed);
+        ctx.fillStyle = rgba([34, 75, 141], 0.2 + 0.4 * twinkle * s.depth);
+        ctx.beginPath();
+        ctx.arc(x, y, s.r * (0.8 + 0.4 * twinkle), 0, Math.PI * 2);
+        ctx.fill();
+      }
+
+      ctx.lineWidth = 0.8;
+      for (var a = 0; a < visible.length; a++) {
+        for (var b = a + 1; b < visible.length; b++) {
+          var ddx = visible[a].x - visible[b].x, ddy = visible[a].y - visible[b].y;
+          var d = Math.sqrt(ddx * ddx + ddy * ddy);
+          if (d < LINK_DISTANCE) {
+            ctx.strokeStyle = rgba([79, 111, 159], 0.14 * (1 - d / LINK_DISTANCE));
+            ctx.beginPath();
+            ctx.moveTo(visible[a].x, visible[a].y);
+            ctx.lineTo(visible[b].x, visible[b].y);
+            ctx.stroke();
+          }
+        }
+        if (mouse.active) {
+          var mdx = visible[a].x - mouse.x, mdy = visible[a].y - mouse.y;
+          var md = Math.sqrt(mdx * mdx + mdy * mdy);
+          if (md < MOUSE_RADIUS) {
+            ctx.strokeStyle = rgba([79, 70, 229], 0.35 * (1 - md / MOUSE_RADIUS));
+            ctx.beginPath();
+            ctx.moveTo(visible[a].x, visible[a].y);
+            ctx.lineTo(mouse.x, mouse.y);
+            ctx.stroke();
+          }
+        }
+      }
+    }
+
+    function drawMeteors() {
+      for (var i = meteors.length - 1; i >= 0; i--) {
+        var m = meteors[i];
+        m.x += m.vx;
+        m.y += m.vy;
+        m.life++;
+        var fade = Math.min(1, m.life / 10) * Math.max(0, 1 - m.life / m.maxLife);
+        if (fade <= 0 || m.x > width + 300 || m.y > height + 300) {
+          meteors.splice(i, 1);
+          continue;
+        }
+        if (Math.random() < 0.6) spawnSpark(m.x, m.y, m.color, 0.8);
+
+        var norm = Math.sqrt(m.vx * m.vx + m.vy * m.vy);
+        var tailX = m.x - m.vx / norm * m.length;
+        var tailY = m.y - m.vy / norm * m.length;
+        var grad = ctx.createLinearGradient(m.x, m.y, tailX, tailY);
+        grad.addColorStop(0, rgba(m.color, 0.95 * fade));
+        grad.addColorStop(0.2, rgba(m.color, 0.5 * fade));
+        grad.addColorStop(1, rgba(m.color, 0));
+        ctx.strokeStyle = grad;
+        ctx.lineWidth = 2.4;
+        ctx.lineCap = 'round';
+        ctx.beginPath();
+        ctx.moveTo(m.x, m.y);
+        ctx.lineTo(tailX, tailY);
+        ctx.stroke();
+
+        ctx.save();
+        ctx.shadowColor = rgba(m.color, fade);
+        ctx.shadowBlur = 16;
+        ctx.fillStyle = rgba(m.color, fade);
+        ctx.beginPath();
+        ctx.arc(m.x, m.y, 2.6, 0, Math.PI * 2);
+        ctx.fill();
+        ctx.restore();
+      }
+    }
+
+    function drawSparks() {
+      for (var i = sparks.length - 1; i >= 0; i--) {
+        var p = sparks[i];
+        p.x += p.vx;
+        p.y += p.vy;
+        p.vx *= 0.96;
+        p.vy = p.vy * 0.96 + 0.03;
+        p.life++;
+        var fade = 1 - p.life / p.maxLife;
+        if (fade <= 0) {
+          sparks.splice(i, 1);
+          continue;
+        }
+        ctx.fillStyle = rgba(p.color, 0.8 * fade);
+        ctx.beginPath();
+        ctx.arc(p.x, p.y, p.r * fade, 0, Math.PI * 2);
+        ctx.fill();
+      }
+    }
+
+    function frame(t) {
+      ctx.clearRect(0, 0, width, height);
+      drawStars(t);
+      if (t - lastSpawn > rand(450, 1300)) {
+        spawnMeteor();
+        if (Math.random() < 0.35) spawnMeteor();
+        lastSpawn = t;
+      }
+      drawSparks();
+      drawMeteors();
+      rafId = requestAnimationFrame(frame);
+    }
+
+    function start() {
+      if (rafId === null) rafId = requestAnimationFrame(frame);
+    }
+
+    function stop() {
+      if (rafId !== null) cancelAnimationFrame(rafId);
+      rafId = null;
+    }
+
+    resize();
+    window.addEventListener('resize', resize);
+
+    if (reduceMotion) {
+      drawStars(0);
+      return;
+    }
+
+    window.addEventListener('mousemove', function (e) {
+      mouse.x = e.clientX;
+      mouse.y = e.clientY;
+      mouse.active = true;
+    });
+    document.addEventListener('mouseleave', function () {
+      mouse.active = false;
+    });
+    window.addEventListener('scroll', function () {
+      scrollY = window.scrollY || 0;
+    }, { passive: true });
+    window.addEventListener('click', function (e) {
+      if (e.target.closest('a, button, input, textarea, select, img')) return;
+      burst(e.clientX, e.clientY);
+    });
+    document.addEventListener('visibilitychange', function () {
+      if (document.hidden) stop(); else start();
+    });
+    start();
+  })();
+</script>
