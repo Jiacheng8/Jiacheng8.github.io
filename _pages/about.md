@@ -17,11 +17,12 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi! My name is Jiacheng Cui (崔家诚). I am currently a PhD student in the Machine Learning Department at MBZUAI. During my master’s studies, I worked on data-centric AI and efficient learning under the supervision of Prof. [Zhiqiang Shen](https://zhiqiangshen.com/). My research interests include data-centric AI, dataset distillation, and efficient training.  
+Hi! My name is Jiacheng Cui (崔家诚). I am currently a PhD student in the Machine Learning Department at MBZUAI, advised by Prof. [Zhiqiang Shen](https://zhiqiangshen.com/), with whom I also completed my master’s studies. My research interests include data-centric AI, dataset distillation, and efficient training.  
 
-Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024. I am always open to academic collaboration and discussions related to my research interests. According to [Google Scholar]({{ site.author.googlescholar }}), my publications have received **<span id="total_cit" aria-live="polite">—</span> citations**.
+Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with First Class Honours from the University of Edinburgh in 2024, where I was supervised by Prof. [Hiroshi Shimodaira](https://scholar.google.com/citations?user=U66P_E8AAAAJ&hl=en). I am always open to academic collaboration and discussions related to my research interests. According to [Google Scholar]({{ site.author.googlescholar }}), my publications have received **106 citations**.
 
 # 🔥 News
+- *2026.09*: &nbsp;🎉🎉 *SODA* has been accepted to **NeurIPS 2026**. See you in Sydney!
 - *2026.08*: &nbsp;🎉🎉 *PIXAR* has been accepted to **ECCV 2026**. See you in Malmö!
 - *2026.04*: &nbsp;🎉🎉 *HALD* has been accepted to **ICML 2026**. See you in Seoul!
 - *2026.04*: &nbsp;🎉🎉 *LLMSurgeon* has been accepted to **ACL 2026**. See you in San Diego!
@@ -35,6 +36,19 @@ Before joining MBZUAI, I obtained a B.Sc. (Hons) in AI and Computer Science with
   <i class="fas fa-arrow-down"></i>
 </div>
 <div class='publication-scroll' markdown="1">
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div><img src='images/soda.png' alt="SODA overview" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[SODA: Selective Optimization with Deferred BN Alignment for Efficient Dataset Distillation](https://jiachengcui.com)
+
+Xinyue Bi<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Yaxin Luo, Xinyi Shang, Jiacheng Liu, Xiaohan Zhao, Zhiqiang Shen
+
+[**Project**](https://jiachengcui.com) <strong><span class='show_paper_citations' data=''></span></strong>
+- Dataset Distillation
+- Generation Efficiency
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ECCV 2026</div><img src='images/PIXAR.png' alt="PIXAR overview" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -69,7 +83,7 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 
 **Jiacheng Cui**, Bingkui Tong, Xinyue Bi, Xiaohan Zhao, Jiacheng Liu, Zhiqiang Shen
 
-[**Project**](https://github.com/Jiacheng8/HALD) <strong><span class='show_paper_citations' data='SI_9kD0AAAAJ:hqOjcs7Dif8C'></span></strong>
+[**Project**](https://github.com/Jiacheng8/HALD)
 - Dataset Distillation
 - Label Usage
 </div>
@@ -100,6 +114,8 @@ Yaxin Luo<sup>*</sup>, **Jiacheng Cui**<sup>*</sup>, Xiaohan Zhao, Xinyi Shang, 
 - Committee Voting
 </div>
 </div>
+
+- <span class="conf-tag">NeurIPS 2026</span> [DELTA: Robustly Training Label-Conditional Diffusion Models with Weak Annotations](https://jiachengcui.com), Dong-Dong Wu, **Jiacheng Cui**, Wei Wang, Zhiqiang Shen, Masashi Sugiyama.
 
 - <span class="conf-tag">ICML 2026</span> [Next-Gen CAPTCHAs: Leveraging the Cognitive Gap for Scalable and Diverse GUI-Agent Defense](https://arxiv.org/pdf/2602.09012), Jiacheng Liu*, Yaxin Luo*, **Jiacheng Cui**, Xinyi Shang, Xiaohan Zhao, Zhiqiang Shen. [![](https://img.shields.io/github/stars/MetaAgentX/NextGen-CAPTCHAs?style=social&label=Code+Stars)](https://github.com/MetaAgentX/NextGen-CAPTCHAs)
 

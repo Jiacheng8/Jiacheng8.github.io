@@ -1,0 +1,9 @@
+<footer class="site-footer" aria-label="Site footer">
+  <div class="site-footer__inner">
+    <span class="site-footer__copyright">&copy; {{ site.time | date: "%Y" }} {{ site.author.name }}</span>
+    <span class="site-footer__updated">
+      <i class="fas fa-clock" aria-hidden="true"></i>
+      Last updated on <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: "%B %-d, %Y" }}</time>
+    </span>
+  </div>
+</footer>

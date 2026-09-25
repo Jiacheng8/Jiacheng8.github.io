@@ -259,3 +259,45 @@ h1:before, .anchor:before {
   opacity: 0.45;
   transition: opacity 160ms ease, transform 160ms ease;
 }
+
+.site-footer {
+  clear: both;
+  margin-top: 3em;
+  border-top: 1px solid #eceff3;
+  background: #f7f9fb;
+  color: #8a929a;
+  font-size: 0.75em;
+}
+
+.site-footer__inner {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em 1.5em;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1.4em 1.5em;
+}
+
+.site-footer__updated {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5em;
+
+  .fa-clock {
+    color: #224b8d;
+  }
+
+  time {
+    color: #3f464d;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 600px) {
+  .site-footer__inner {
+    flex-direction: column;
+    text-align: center;
+  }
+}
